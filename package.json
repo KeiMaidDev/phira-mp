@@ -9,14 +9,25 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
+    "phira",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "homepage": "https://github.com/KeiMaidDev/koishi-plugin-phira-mp",
+  "bugs": {
+    "url": "https://github.com/KeiMaidDev/koishi-plugin-phira-mp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeiMaidDev/koishi-plugin-phira-mp.git"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
   "peerDependencies": {
-    "koishi": "^4.18.7"
+    "koishi": "^4.18.7",
+    "koishi-plugin-adapter-qq-crack": "^1.0.9"
   }
 }
